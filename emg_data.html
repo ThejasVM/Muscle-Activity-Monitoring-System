@@ -1,0 +1,15 @@
+<!-- myapp/templates/myapp/emg_data.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMG Data</title>
+</head>
+<body>
+    <h1>EMG Data</h1>
+    <ul>
+        {% for data in emg_data %}
+        <li>{{ data }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
